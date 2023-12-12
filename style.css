@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+.logos{
+right:1vw;
+left:87vw;
+position:absolute;
+height:12vw;
+width:12vw;
+}
+.uppanel {
+right:13vw;
+left:18vw;
+background-color: #03fafe;
+width: 69vw;
+height: 12vw;
+position:absolute;
+text-align: center;
+font-size: 1.2vw;
+}
+.uppanel h1{
+font-family: 'Rubik Mono One', monospace;
+color:#7645e6;
+text-transform:uppercase;
+font-weight:bold;
+}
+body {
+	overflow-y: scroll;
+background-color: white;
+margin: 0;
+font-family: Arial;
+}
+
+.menu ul {
+position:fixed;
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 18vw;
+background-color:#f1f1f1;
+}
+.menu ul li{
+height:4vw;
+text-align:center;
+}
+.menu ul li a{
+font-size: 1.5vw;
+height:3vw;
+display: block;
+padding: 1vw 0 0 0;
+color: #000;
+text-decoration:none;
+}
+
+.menu ul li a:hover {
+background-color: #0a466e;
+color: white;
+border-radius:10px;
+}
+
+.sidepan{
+background-color: #b0b0b0;
+position: fixed;
+top: 12vw;
+float: left;
+width: 18vw;
+height: 88vw;
+}
+.sidepan h3{font-size:1.8vw;}
+.banner{
+width:18vw;
+border-radius:8px;
+height: auto;
+}
+
+.sidepan h3{
+padding: 5% 0 0 5%;
+}
+
+article{
+align-content: center;
+font-size:1vw;
+text-align: center;
+width:calc(50% - 17px);
+padding: 8% 2% 8% 2%;
+background-color:white;
+min-height: calc(100vh - 16vw);
+
+} 
+.join{
+width:40%;
+height:auto;
+margin-right:auto;
+margin-left:auto;
+display:block;
+margin-top:20px;
+margin-bottom:20px;
+border-radius:8px;
+}
+.tabs{
+background-color: #b0b0b0;
+position: absolute;
+    text-align: center;
+    left: 18vw;
+    top: 12vw;
+    height: 4vw;
+    width: 81vw;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.tablink {
+  background-color: #ccc;
+  border:none;
+  cursor: pointer;
+  height:3vw;
+  display: inline-block;
+  font-size: 1vw;
+  padding: 1vw 2vw;
+}
+
+
+.tablink.active {
+  background-color: white;
+}
+
+.tabcontent.active {
+  display: block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-image: url('img/skyback2.png'); /* Ścieżka do twojego obrazu tła */
+  background-size: 100% auto; /* Dostosowanie rozmiaru obrazu */
+  background-repeat: no-repeat; /* Wyłączenie powtarzania tła */
+  background-attachment: fixed; /* Utrzymywanie tła w miejscu */
+  overflow-y: scroll;
+ 
+}
+
+::-webkit-scrollbar {
+  width: 1vw;
+  
+}
+.content{
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url('img/skyback2.png'); /* Ścieżka do twojego obrazu tła */
+  background-size: 100% auto; /* Dostosowanie rozmiaru obrazu */
+  background-repeat: no-repeat; /* Wyłączenie powtarzania tła */
+  background-attachment: fixed; /* Utrzymywanie tła w miejscu */
+  overflow-y: scroll;
+
+position:absolute;
+text-align: center;
+    left: 18vw;
+    top: 12vw;
+    width: 81vw;
+}
+.spistresci{
+border: 2px solid black;
+width: 10vw;
+display: inline-block;
+}
+.spistresci ul{
+padding: 0;
+list-style: none;
+}
+.spistresci ul li a{
+text-decoration: none;
+color:black;
+}
+.admin{
+	padding:0;
+	margin: 0;
+	text-align: center;
+	border: solid black 3px;
+	height: 10vw;
+	width:100%;
+	font-size:150%;
+}
